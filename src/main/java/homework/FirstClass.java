@@ -78,5 +78,6 @@ public class FirstClass {
         System.out.println("Atikums " + atlikums1);
         System.out.println(atlikums2);
         System.out.println(atlikums3 / starpiba3);
+        
     }
 }
