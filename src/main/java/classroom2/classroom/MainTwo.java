@@ -1,4 +1,4 @@
-package classroom;
+package classroom2.classroom;
 
 public class MainTwo {
     public static void main(String[] args) {
@@ -16,5 +16,16 @@ public class MainTwo {
         System.out.println(teikums);
 
         System.out.println((2*(2+2))/2);
+
+
+        double lowestTemperature = -20.4;
+        float highestTemperature = 40.65512312F;
+        System.out.println("Augstaka temp ir " + highestTemperature + "zemaka temp ir " + lowestTemperature);
+        String teikums1 = String.format("Augstākā temperatūra ir %.2f Zemākā temperatūra ir %s",highestTemperature,lowestTemperature);
+        System.out.println(teikums1);
+
+        String teikums2 = String.format("Augstākā temperatūra ir %.2f Zemākā temperatūra ir %2Ss. Zemāka temp %2$s. Augstaka Temo %1$.4f",highestTemperature,lowestTemperature);
+        System.out.println(teikums2);
+
     }
 }
