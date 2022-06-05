@@ -1,9 +1,9 @@
-package classroom;
+package classroom2.classroom;
 
 public class Main {
 
     public static void main(String[] args) {
-
+        //lai palaistu JAVA programmu, klasē ir jāuzraksta main metode(psvm)
         //(mainīgā tips) (mainīgā nosaukums) = (vērtība);
 
         int dogAge = 3;    //Vesels skaitlis
