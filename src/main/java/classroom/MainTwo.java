@@ -1,4 +1,4 @@
-package classroom2.classroom;
+package classroom;
 
 public class MainTwo {
     public static void main(String[] args) {

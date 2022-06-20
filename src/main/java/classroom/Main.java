@@ -1,4 +1,4 @@
-package classroom2.classroom;
+package classroom;
 
 public class Main {
 
