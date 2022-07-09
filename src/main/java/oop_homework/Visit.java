@@ -38,14 +38,13 @@ public class Visit {
             return this.serviceExpense - (this.serviceExpense * DiscountRate.getServiceDiscountRate(this.customer.getMemberType()));
         }
 
-        public double totalProductExpence () {
+        public double totalProductExpense () {
             return this.productExpense - (this.productExpense * DiscountRate.getProductDiscountRate(this.customer.getMemberType()));
         }
 
-        public double getTotalExpence () {
-            return totalProductExpence() + totalServiceExpense();
+        public double getTotalExpense () {
+            return totalProductExpense() + totalServiceExpense();
         }
-
 
 
 
